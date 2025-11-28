@@ -43,7 +43,7 @@ export default function Records() {
 
   // Table & filter states
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage, setItemsPerPage] = useState(8);
+  const [itemsPerPage, setItemsPerPage] = useState(5);
   const [searchQuery, setSearchQuery] = useState("");
   const [typeFilter, setTypeFilter] = useState("all-types");
   const [statusFilter, setStatusFilter] = useState("all-status");
